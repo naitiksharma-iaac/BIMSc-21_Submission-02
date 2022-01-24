@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+
+ .max-width {
+     max-width: 100%;
+     padding: 0.8rem;
+     margin: 0 auto;
+ }
+
+ /*Navbar Styling*/
+
+ .navbar {
+     position: fixed;
+     width: 100%;
+     padding: 1.5rem 0;
+     background: crimson;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .navbar .max-width{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .navbar .logo a{
+     color: #fff;
+     font-size: 3.5rem;
+     font-weight: 600;
+ }
+
+ .navbar .menu li{
+     list-style: none;
+     display: inline-block;
+ }
+
+ .navbar .menu li a {
+     color: #fff;
+
+ }
